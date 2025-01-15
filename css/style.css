@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  font-family: monospace;
+}
+.nav {
+  color: rgb(88, 216, 131);
+  background-color: rgb(15, 15, 15);
+  padding: 20px 30px;
+  box-shadow: rgba(0, 0, 0, 0.65) 0px 5px 15px;
+  h2 {
+    font-size: 35px;
+    padding-left: 20px;
+  }
+  a {
+    color: rgb(88, 216, 131);
+    text-decoration: none;
+    padding: 20px 15px;
+    font-size: 20px;
+    transition: 0.65s;
+  }
+  a:hover {
+    background-color: black;
+    transition: 0.75s;
+  }
+}
+.links {
+  padding-top: 10px;
+}
+.row {
+  width: 100%;
+}
+.space {
+  background-image: url("../img/chem bg pic.avif");
+  background-size: cover;
+  height: 864px;
+}
+.filter {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 864px;
+  h1 {
+    color: rgb(88, 216, 131);
+    text-align: center;
+    font-size: 110px;
+    font-family: "Trebuchet MS";
+    padding-top: 220px;
+  }
+  a {
+    position: absolute;
+    left: 43%;
+    top: 80%;
+    background-color: rgb(15, 15, 15);
+    border: 3px solid rgb(88, 216, 131);
+    border-radius: 25px;
+    padding: 15px 80px;
+    color: rgb(88, 216, 131);
+    font-size: 20px;
+    text-decoration: none;
+
+    transition: 1s;
+  }
+  a:hover {
+    background-color: rgb(88, 216, 131);
+    border-color: rgb(15, 15, 15);
+    color: rgb(15, 15, 15);
+    padding: 15px 120px;
+    position: absolute;
+    left: 41%;
+    transition: 0.6s;
+  }
+}
+.chemicals {
+  h2 {
+    padding-top: 3em;
+    text-align: center;
+    color: rgb(19, 121, 53);
+    font-weight: bold;
+  }
+}
